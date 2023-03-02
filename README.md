@@ -1,6 +1,6 @@
 Automatic calculation of critical plane damage parameters by the optimized method presented in the paper https://www.sciencedirect.com/science/article/pii/S0020740322008529, based on tensors analysis and Mohr's representation; the stress and strain tensor obtained at each load step of a finite element analysis are employed
 
-- CPOpt_v1.0 (it includes * *Fatemi-Socie* * and * *Smith-Watson-Topper* * critical plane factors)
+- CPOpt_v1.0 (it includes *Fatemi-Socie*  and *Smith-Watson-Topper* critical plane factors)
 
 The mathematical procedure is described in the article:
 
