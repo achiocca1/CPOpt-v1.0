@@ -32,8 +32,8 @@ NECESSARY STEPS TO RUN THE SCRIPT
 - blocklength           % How many load steps are present in the .csv files inside "directoryRESULTS" (default 5)
 - kFS                   % Material constant of Fatemi-Socie critical plane factor (default 0.4)
 - Sy                    % Yield strength (default 355)
-- NameFile              % Name of the results file (default 0.4)
-- LoadSteps             % Considered load steps (default 0.4)
+- NameFile              % Name of the results file (default "Final_results.txt")
+- LoadSteps             % Considered load steps (default [1, 5])
 - CP                    % Which critical plane factor is evaluated (default "FS")
 
 5) RUN the script in Matlab
