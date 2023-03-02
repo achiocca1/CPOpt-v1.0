@@ -2,9 +2,9 @@
 ALL THE FILES PRESENT IN THE FOLDER REFER TO A READY-TO-USE MODEL. 
 JUST TRY TO RUN CP_function.m IN MATLAB ENVIRONMENT TO TEST THE CODE.
 
-********************************************
-DESCRIPTION OF FILES CONTAINED IN THE FOLDER
-********************************************
+************************
+DESCRIPTION OF THE FILES 
+************************
 
 ANSYS_Post_Process_Results.mac = APDL command necessary for a correct post-processing of results in Ansys (it can be used only in Ansys, if any other FEM software is used you need to correctly post-process results as the ones contained in the "FEM_results" folder)
 CP_function.m = main Matlab function to be run
