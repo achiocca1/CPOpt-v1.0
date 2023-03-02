@@ -9,4 +9,4 @@ A. Chiocca, F. Frendo, G. Marulo, "An efficient algorithm for critical plane fac
 Bug reports and suggestions are welcome! 
 This software is regularly maintained.
 
-Contact me at andrea.chiocca@unipi.it if you need assistance or you need to implement a specific critical plane model in the code.
+Contact me at andrea.chiocca@unipi.it if you need assistance or you need to implement a specific critical plane model within the code.
