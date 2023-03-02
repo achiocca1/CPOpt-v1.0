@@ -18,7 +18,12 @@ NECESSARY STEPS TO RUN THE SCRIPT
 *********************************
 
 0) Generate the stress and strain tensors result files and copy them into the "FEM_results" folder. 
-***Only in the case of Ansys Workbench you can use the ready-to-use code provided (ANSYS_Post_Process_Results.mac). If another FEM software is used you have to export stress and strain results creating .csv files structured as the ones contained in FEM_results folder***
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+***Only in the case of Ansys Workbench you can use the ready-to-use code provided (ANSYS_Post_Process_Results.mac). If another FEM software is used you have to export stress and strain results by creating .csv files structured as the ones contained in FEM_results folder***
+0.1) Create a Named Selection called "Nodes_Circ" and select all the nodes that have to be evaluated through the critical plane method
+0.2) Paste and copy the ANSYS_Post_Process_Results.mac in an APDL command in the solution environment of Ansys Workbench. The code will automatically generate .csv files containing all the stress and strain results at each load step. The script will evaluate just the nodes
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 1) Generate an .STL file of your model and call it model.stl
 
