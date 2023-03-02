@@ -22,7 +22,7 @@ NECESSARY STEPS TO RUN THE SCRIPT
 
 1) Generate an .STL file of your model and call it model.stl
 
-2) Generate a file containing the following nodal information: Node Number,	X Location (mm),	Y Location (mm),	Z Location (mm). Call it nodes_coordinates.txt
+2) Generate a file containing the following nodal information: Node Number, X Location (mm), Y Location (mm), Z Location (mm). Call it nodes_coordinates.txt
 
 3) Open CP_function.m with the Matlab program
 
