@@ -4,7 +4,7 @@ Automatic calculation of critical plane parameters by optimized method on the ba
 
 The mathematical procedure is described in the article:
 
-A. Chiocca, F. Frendo, G. Marulo, "An efficient algorithm for critical plane factors evaluation", International Journal of Mechanical Sciences, Volume 242, 2023, 10.1016/j.ijmecsci.2022.107974.
+**A. Chiocca, F. Frendo, G. Marulo, "An efficient algorithm for critical plane factors evaluation", International Journal of Mechanical Sciences, Volume 242, 2023, 10.1016/j.ijmecsci.2022.107974.**
 
 Bug reports and suggestions are welcome! 
 This software is regularly maintained.
