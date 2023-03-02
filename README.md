@@ -1,6 +1,6 @@
 Automatic calculation of critical plane parameters by optimized method on the basis of stress and strain tensors occurring at each load step of a finite element analysis.
 
-- v1.0 (Fatemi-Socie, Smith-Watson-Topper)
+- CPOpt_v1.0 (Fatemi-Socie, Smith-Watson-Topper)
 
 The mathematical procedure is described in the article:
 
