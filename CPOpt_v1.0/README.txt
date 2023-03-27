@@ -25,7 +25,7 @@ NECESSARY STEPS TO RUN THE SCRIPT
 0.2) Paste and copy the ANSYS_Post_Process_Results.mac in an APDL command in the solution environment of Ansys Workbench. The code will automatically generate .csv files containing all the stress and strain results at each load step. The script will evaluate just the nodes
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-1) Generate an .STL file of your model and call it model.stl
+1) Generate an .STL file of your model and call it model.stl (Be aware that Matlab handles better .stl files exported in ASCII than BINARY)
 
 2) Generate a file containing the following nodal information: Node Number, X Location (mm), Y Location (mm), Z Location (mm). Call it nodes_coordinates.txt
 
