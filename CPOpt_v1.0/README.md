@@ -1,12 +1,12 @@
 
-ALL THE FILES PRESENT IN THE FOLDER REFER TO A READY-TO-USE MODEL. 
-JUST TRY TO RUN CP_function.m IN MATLAB ENVIRONMENT TO TEST THE CODE.
+ALL THE FILES PRESENT IN THE FOLDER REFER TO A READY-TO-USE MODEL. \n
+JUST TRY TO RUN CP_function.m IN MATLAB ENVIRONMENT TO TEST THE CODE. \n
 
 ************************
-DESCRIPTION OF THE FILES 
+# DESCRIPTION OF THE FILES 
 ************************
 
-ANSYS_Post_Process_Results.mac = APDL command necessary for a correct post-processing of results in Ansys (it can be used only in Ansys, if any other FEM software is used you need to correctly post-process results as the ones contained in the "FEM_results" folder)
+ANSYS_Post_Process_Results.mac = APDL command necessary for a correct post-processing of results in Ansys (it can be used only in Ansys, if any other FEM software is used you need to correctly post-process results as the ones contained in the "FEM_results" folder)\n 
 CP_function.m = main Matlab function to be run
 model.stl =  STL model of the simulated component
 FEM_results = folder containing all the nodal results of stress and strain from the finite element analysis
@@ -14,13 +14,13 @@ nodes_coordinates.txt = text file containing all information of nodal numbers an
 
 
 *********************************
-NECESSARY STEPS TO RUN THE SCRIPT 
+# NECESSARY STEPS TO RUN THE SCRIPT 
 *********************************
 
 0) Generate the stress and strain tensors result files and copy them into the "FEM_results" folder. 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-***Only in the case of Ansys Workbench you can use the ready-to-use code provided (ANSYS_Post_Process_Results.mac). If another FEM software is used you have to export stress and strain results by creating .csv files structured as the ones contained in FEM_results folder***
+*Only in the case of Ansys Workbench you can use the ready-to-use code provided (ANSYS_Post_Process_Results.mac). If another FEM software is used you have to export stress and strain results by creating .csv files structured as the ones contained in FEM_results folder*
 0.1) Create a Named Selection called "Nodes_Circ" and select all the nodes that have to be evaluated through the critical plane method
 0.2) Paste and copy the ANSYS_Post_Process_Results.mac in an APDL command in the solution environment of Ansys Workbench. The code will automatically generate .csv files containing all the stress and strain results at each load step. The script will evaluate just the nodes
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
