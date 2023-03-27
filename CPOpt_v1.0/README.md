@@ -46,4 +46,4 @@ JUST TRY TO RUN CP_function.m IN MATLAB ENVIRONMENT TO TEST THE CODE.
 - **LoadSteps             % Considered load steps (default [1, 5])**
 - **CP                    % Which critical plane factor is evaluated (default "FS")**
 
-5) RUN the script in Matlab
+5) **RUN the script in Matlab**
