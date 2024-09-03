@@ -1,8 +1,10 @@
 # CPOpt
 
-Automatic calculation of critical plane damage parameters by the optimized method presented in the paper https://www.sciencedirect.com/science/article/pii/S0020740322008529, based on tensors analysis and Mohr's representation; the stress and strain tensor obtained at each load step of a finite element analysis are employed
+This repository contains the implementation of the CPOpt method, an efficient algorithm designed to optimize the calculation of critical plane factors for fatigue assessment. Traditional critical plane methods are often time-consuming due to the use of nested loops, making them impractical for complex geometries or time-sensitive applications. CPOpt addresses this challenge by using tensor invariants and coordinate transformation laws to streamline the process, significantly reducing computation time while maintaining accuracy.
 
-- CPOpt_v1.0 (it includes *Fatemi-Socie*  and *Smith-Watson-Topper* critical plane factors)
+This method is applicable to various critical plane factors that require parameter maximization based on stress and strain components. The repository includes the algorithm, validation data, and examples, demonstrating its effectiveness across different geometries and loading conditions. 
+
+CPOpt is a valuable tool for both researchers and engineers working on fatigue analysis in demanding industrial contexts.
 
 The mathematical procedure is described in the article:
 
