@@ -19,7 +19,7 @@ Contact me at andrea.chiocca@unipi.it if you need assistance or you need to impl
 
 ---
 
-# FS and SWT Analysis for Tensile Loading Specimen
+# FS and SWT Analysis
 
 This repository contains a MATLAB-based analysis tool that computes critical plane factors using the Fatemi-Socie (FS) and Smith-Watson-Topper (SWT) criteria. It is designed to analyze simulation data extracted from ANSYS for a specimen subjected to tensile loading.
 
